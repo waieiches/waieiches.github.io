@@ -1,17 +1,33 @@
-*.swp
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# Ruby Gem
-*.gem
-.bundle
-Gemfile.lock
-vendor/bundle
+# Build output
+dist/
+build/
+*.log
 
-# macOS
+# Editor directories and files
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
 
-# Jekyll generated files
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-_asset_bundler_cache
-_site
+# Env files
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache/
+.vite/
+*.tsbuildinfo
+
+# Generated posts manifest
+public/_posts/index.json

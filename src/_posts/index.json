@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "title": "제목",
+    "excerpt": "요약",
+    "category": "AI",
+    "date": "2024-01-15",
+    "tags": ["AI", "Machine Learning", "Deep Learning"],
+    "readTime": "",
+    "file": "/_posts/2025-09-15-post.md"
+  }
+]
