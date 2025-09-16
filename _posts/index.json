@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "첫 블로그 글",
+    "excerpt": "블로그 시스템이 잘 동작하는지 확인하기 위한 테스트 글입니다.",
+    "category": "Study",
+    "date": "2025-09-15T00:00:00.000Z",
+    "tags": [
+      "Blog",
+      "Test",
+      "Setup"
+    ],
+    "readTime": "2분",
+    "file": "_posts/2025-09-15-sample.md"
+  }
+]
