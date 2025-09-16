@@ -22,18 +22,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-
-      - run: npm ci
+          # cache: npm   
+      - run: npm install
       - run: node ./scripts/generate-posts.mjs
       - run: npm run build
-
-      # (라우터 쓰면 추천) 404 fallback
       - run: cp dist/index.html dist/404.html || true
-
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist   # ← outDir가 build면 여기 'build'로 변경
+          path: dist
 
   deploy:
     environment:
